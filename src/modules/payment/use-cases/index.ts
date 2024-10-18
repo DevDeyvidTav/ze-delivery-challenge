@@ -1,10 +1,9 @@
 import { fetchApi } from "@/src/api";
 
-export async function getAllProducts() {
+export async function getPayments() {
     const response = await fetchApi({
         method: "get",
-        url: "/products",
+        url: "/payments",
     })
-    console.log(response)
     return response.data
 }

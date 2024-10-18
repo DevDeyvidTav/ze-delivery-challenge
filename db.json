@@ -1,105 +1,917 @@
 {
-    "products": [],
-    "transactions": [
-      {
-        "id": "l1eddsxevvk5o6acysd",
-        "openFridge": "2022-03-31T02:20:30.840Z",
-        "closeFridge": "2022-03-31T02:21:30.840Z",
-        "products": [
-          {
-            "id": 1,
-            "name": "Guaraná Antarctica 2L",
-            "price": 7.79,
-            "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
-            "quantity": 1
-          },
-          {
-            "id": 2,
-            "name": "Corona Extra 330ml",
-            "price": 5.79,
-            "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
-            "quantity": 4
-          },
-          {
-            "id": 3,
-            "name": "Do Bem Suco de Laranja Integral 1",
-            "price": 8.65,
-            "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
-            "quantity": 4
-          }
-        ]
-      },
-      {
-        "id": "l1eh23fnu1o8l5gqo3j",
-        "openFridge": "2022-03-31T04:03:23.050Z",
-        "closeFridge": "2022-03-31T04:04:23.050Z",
-        "products": [
-          {
-            "id": 1,
-            "name": "Guaraná Antarctica 2L",
-            "price": 7.79,
-            "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
-            "quantity": 4
-          },
-          {
-            "id": 2,
-            "name": "Corona Extra 330ml",
-            "price": 5.79,
-            "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
-            "quantity": 1
-          },
-          {
-            "id": 3,
-            "name": "Do Bem Suco de Laranja Integral 1",
-            "price": 8.65,
-            "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
-            "quantity": 1
-          },
-          {
-            "id": 4,
-            "name": "Stella Artois 330 ml",
-            "price": 4.99,
-            "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/fb31bc752cf7e0792f07da456c4ad8d7.png",
-            "quantity": 3
-          },
-          {
-            "id": 5,
-            "name": "Pepsi 2L",
-            "price": 5.99,
-            "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0a0a9d04f43c521b99d8493e01839ad0.png",
-            "quantity": 3
-          },
-          {
-            "id": 6,
-            "name": "Spaten 350ml",
-            "price": 3.79,
-            "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/248fa97787be649355fadb5a91922977.png",
-            "quantity": 1
-          },
-          {
-            "id": 7,
-            "name": "Gatorade Limão 500 ml",
-            "price": 4.29,
-            "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/b533ac0b75e5650d675885609dbaa69d.png",
-            "quantity": 4
-          }
-        ]
-      }
-    ],
-    "payments": [
-      {
-        "id": "l1edk4tmlybbn4ffne9",
-        "paymentDate": "2022-03-31T02:25:29.194Z",
-        "transactionId": "l1eddsxevvk5o6acysd",
-        "amount": 65.55,
-        "status": "PAID"
-      },
-      {
-        "id": "l1eh6xjy8poe3552ghm",
-        "paymentDate": "2022-03-31T04:07:11.710Z",
-        "transactionId": "l1eh23fnu1o8l5gqo3j",
-        "amount": 81.52,
-        "status": "PAID"
-      }
-    ]
-  }
+  "products": [],
+  "transactions": [
+    {
+      "id": "l1eddsxevvk5o6acysd",
+      "openFridge": "2022-03-31T02:20:30.840Z",
+      "closeFridge": "2022-03-31T02:21:30.840Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 4
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "l1eh23fnu1o8l5gqo3j",
+      "openFridge": "2022-03-31T04:03:23.050Z",
+      "closeFridge": "2022-03-31T04:04:23.050Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 4
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "name": "Stella Artois 330 ml",
+          "price": 4.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/fb31bc752cf7e0792f07da456c4ad8d7.png",
+          "quantity": 3
+        },
+        {
+          "id": 5,
+          "name": "Pepsi 2L",
+          "price": 5.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0a0a9d04f43c521b99d8493e01839ad0.png",
+          "quantity": 3
+        },
+        {
+          "id": 6,
+          "name": "Spaten 350ml",
+          "price": 3.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/248fa97787be649355fadb5a91922977.png",
+          "quantity": 1
+        },
+        {
+          "id": 7,
+          "name": "Gatorade Limão 500 ml",
+          "price": 4.29,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/b533ac0b75e5650d675885609dbaa69d.png",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "m2e2k9xkk3t47mvunc",
+      "openFridge": "2024-10-18T01:46:43.464Z",
+      "closeFridge": "2024-10-18T01:47:43.464Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 3
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "name": "Stella Artois 330 ml",
+          "price": 4.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/fb31bc752cf7e0792f07da456c4ad8d7.png",
+          "quantity": 2
+        },
+        {
+          "id": 5,
+          "name": "Pepsi 2L",
+          "price": 5.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0a0a9d04f43c521b99d8493e01839ad0.png",
+          "quantity": 2
+        },
+        {
+          "id": 6,
+          "name": "Spaten 350ml",
+          "price": 3.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/248fa97787be649355fadb5a91922977.png",
+          "quantity": 3
+        },
+        {
+          "id": 7,
+          "name": "Gatorade Limão 500 ml",
+          "price": 4.29,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/b533ac0b75e5650d675885609dbaa69d.png",
+          "quantity": 1
+        },
+        {
+          "id": 8,
+          "name": "Bohemia lata",
+          "price": 3.09,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0661f839c8e9529cc445e6296c7c613e.png",
+          "quantity": 3
+        },
+        {
+          "id": 9,
+          "name": "Colorado Ribeirão Lager 410 ml",
+          "price": 4.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/8fe31e103d212ae0d67c477607c9b70d.png",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "m2e2kbl4431jbla16zl",
+      "openFridge": "2024-10-18T01:46:45.602Z",
+      "closeFridge": "2024-10-18T01:47:45.602Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 3
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "m2e2kc3ag2hgz65p19",
+      "openFridge": "2024-10-18T01:46:46.259Z",
+      "closeFridge": "2024-10-18T01:47:46.259Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 3
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "name": "Stella Artois 330 ml",
+          "price": 4.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/fb31bc752cf7e0792f07da456c4ad8d7.png",
+          "quantity": 2
+        },
+        {
+          "id": 5,
+          "name": "Pepsi 2L",
+          "price": 5.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0a0a9d04f43c521b99d8493e01839ad0.png",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "m2e2kcb3ep6mfntrkim",
+      "openFridge": "2024-10-18T01:46:46.544Z",
+      "closeFridge": "2024-10-18T01:47:46.544Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 3
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "name": "Stella Artois 330 ml",
+          "price": 4.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/fb31bc752cf7e0792f07da456c4ad8d7.png",
+          "quantity": 2
+        },
+        {
+          "id": 5,
+          "name": "Pepsi 2L",
+          "price": 5.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0a0a9d04f43c521b99d8493e01839ad0.png",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "m2e2kcw9pdu2ue1v1pr",
+      "openFridge": "2024-10-18T01:46:47.299Z",
+      "closeFridge": "2024-10-18T01:47:47.299Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 3
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "m2e2kd41ap1pexzedi",
+      "openFridge": "2024-10-18T01:46:47.586Z",
+      "closeFridge": "2024-10-18T01:47:47.586Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 3
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "name": "Stella Artois 330 ml",
+          "price": 4.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/fb31bc752cf7e0792f07da456c4ad8d7.png",
+          "quantity": 2
+        },
+        {
+          "id": 5,
+          "name": "Pepsi 2L",
+          "price": 5.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0a0a9d04f43c521b99d8493e01839ad0.png",
+          "quantity": 2
+        },
+        {
+          "id": 6,
+          "name": "Spaten 350ml",
+          "price": 3.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/248fa97787be649355fadb5a91922977.png",
+          "quantity": 3
+        },
+        {
+          "id": 7,
+          "name": "Gatorade Limão 500 ml",
+          "price": 4.29,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/b533ac0b75e5650d675885609dbaa69d.png",
+          "quantity": 1
+        },
+        {
+          "id": 8,
+          "name": "Bohemia lata",
+          "price": 3.09,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0661f839c8e9529cc445e6296c7c613e.png",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "m2e2kdy5skj6p4dyi6",
+      "openFridge": "2024-10-18T01:46:48.673Z",
+      "closeFridge": "2024-10-18T01:47:48.673Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 3
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "name": "Stella Artois 330 ml",
+          "price": 4.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/fb31bc752cf7e0792f07da456c4ad8d7.png",
+          "quantity": 2
+        },
+        {
+          "id": 5,
+          "name": "Pepsi 2L",
+          "price": 5.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0a0a9d04f43c521b99d8493e01839ad0.png",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "m2e2keg7dsrlz0fqwgd",
+      "openFridge": "2024-10-18T01:46:49.325Z",
+      "closeFridge": "2024-10-18T01:47:49.325Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 3
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "name": "Stella Artois 330 ml",
+          "price": 4.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/fb31bc752cf7e0792f07da456c4ad8d7.png",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "m2e2keoeapx1a16eb2o",
+      "openFridge": "2024-10-18T01:46:49.608Z",
+      "closeFridge": "2024-10-18T01:47:49.608Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 3
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "name": "Stella Artois 330 ml",
+          "price": 4.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/fb31bc752cf7e0792f07da456c4ad8d7.png",
+          "quantity": 2
+        },
+        {
+          "id": 5,
+          "name": "Pepsi 2L",
+          "price": 5.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0a0a9d04f43c521b99d8493e01839ad0.png",
+          "quantity": 2
+        },
+        {
+          "id": 6,
+          "name": "Spaten 350ml",
+          "price": 3.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/248fa97787be649355fadb5a91922977.png",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "m2e2kf96zqiavsft30c",
+      "openFridge": "2024-10-18T01:46:50.364Z",
+      "closeFridge": "2024-10-18T01:47:50.364Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 3
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "m2e2l474ys1rkfbs54l",
+      "openFridge": "2024-10-18T01:47:22.691Z",
+      "closeFridge": "2024-10-18T01:48:22.691Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 3
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "name": "Stella Artois 330 ml",
+          "price": 4.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/fb31bc752cf7e0792f07da456c4ad8d7.png",
+          "quantity": 2
+        },
+        {
+          "id": 5,
+          "name": "Pepsi 2L",
+          "price": 5.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0a0a9d04f43c521b99d8493e01839ad0.png",
+          "quantity": 2
+        },
+        {
+          "id": 6,
+          "name": "Spaten 350ml",
+          "price": 3.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/248fa97787be649355fadb5a91922977.png",
+          "quantity": 3
+        },
+        {
+          "id": 7,
+          "name": "Gatorade Limão 500 ml",
+          "price": 4.29,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/b533ac0b75e5650d675885609dbaa69d.png",
+          "quantity": 1
+        },
+        {
+          "id": 8,
+          "name": "Bohemia lata",
+          "price": 3.09,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0661f839c8e9529cc445e6296c7c613e.png",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "m2e2m3bi0nxkjlz9veom",
+      "openFridge": "2024-10-18T01:48:08.201Z",
+      "closeFridge": "2024-10-18T01:49:08.201Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 3
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "name": "Stella Artois 330 ml",
+          "price": 4.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/fb31bc752cf7e0792f07da456c4ad8d7.png",
+          "quantity": 2
+        },
+        {
+          "id": 5,
+          "name": "Pepsi 2L",
+          "price": 5.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0a0a9d04f43c521b99d8493e01839ad0.png",
+          "quantity": 2
+        },
+        {
+          "id": 6,
+          "name": "Spaten 350ml",
+          "price": 3.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/248fa97787be649355fadb5a91922977.png",
+          "quantity": 3
+        },
+        {
+          "id": 7,
+          "name": "Gatorade Limão 500 ml",
+          "price": 4.29,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/b533ac0b75e5650d675885609dbaa69d.png",
+          "quantity": 1
+        },
+        {
+          "id": 8,
+          "name": "Bohemia lata",
+          "price": 3.09,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0661f839c8e9529cc445e6296c7c613e.png",
+          "quantity": 3
+        },
+        {
+          "id": 9,
+          "name": "Colorado Ribeirão Lager 410 ml",
+          "price": 4.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/8fe31e103d212ae0d67c477607c9b70d.png",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "m2e2sxff90yuh5ot4br",
+      "openFridge": "2024-10-18T01:53:27.169Z",
+      "closeFridge": "2024-10-18T01:54:27.169Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 3
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "m2e2t04noqje0p9ci7",
+      "openFridge": "2024-10-18T01:53:30.667Z",
+      "closeFridge": "2024-10-18T01:54:30.667Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "m2epwrcfvj0xphs3rz",
+      "openFridge": "2024-10-18T12:40:17.070Z",
+      "closeFridge": "2024-10-18T12:41:17.070Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 4
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 4
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "name": "Stella Artois 330 ml",
+          "price": 4.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/fb31bc752cf7e0792f07da456c4ad8d7.png",
+          "quantity": 4
+        },
+        {
+          "id": 5,
+          "name": "Pepsi 2L",
+          "price": 5.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0a0a9d04f43c521b99d8493e01839ad0.png",
+          "quantity": 4
+        },
+        {
+          "id": 6,
+          "name": "Spaten 350ml",
+          "price": 3.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/248fa97787be649355fadb5a91922977.png",
+          "quantity": 3
+        },
+        {
+          "id": 7,
+          "name": "Gatorade Limão 500 ml",
+          "price": 4.29,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/b533ac0b75e5650d675885609dbaa69d.png",
+          "quantity": 2
+        },
+        {
+          "id": 8,
+          "name": "Bohemia lata",
+          "price": 3.09,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0661f839c8e9529cc445e6296c7c613e.png",
+          "quantity": 1
+        },
+        {
+          "id": 9,
+          "name": "Colorado Ribeirão Lager 410 ml",
+          "price": 4.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/8fe31e103d212ae0d67c477607c9b70d.png",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "m2eqsy8190uioim7csi",
+      "openFridge": "2024-10-18T13:05:18.985Z",
+      "closeFridge": "2024-10-18T13:06:18.985Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 4
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 4
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "name": "Stella Artois 330 ml",
+          "price": 4.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/fb31bc752cf7e0792f07da456c4ad8d7.png",
+          "quantity": 4
+        },
+        {
+          "id": 5,
+          "name": "Pepsi 2L",
+          "price": 5.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0a0a9d04f43c521b99d8493e01839ad0.png",
+          "quantity": 4
+        },
+        {
+          "id": 6,
+          "name": "Spaten 350ml",
+          "price": 3.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/248fa97787be649355fadb5a91922977.png",
+          "quantity": 3
+        },
+        {
+          "id": 7,
+          "name": "Gatorade Limão 500 ml",
+          "price": 4.29,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/b533ac0b75e5650d675885609dbaa69d.png",
+          "quantity": 2
+        },
+        {
+          "id": 8,
+          "name": "Bohemia lata",
+          "price": 3.09,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0661f839c8e9529cc445e6296c7c613e.png",
+          "quantity": 1
+        },
+        {
+          "id": 9,
+          "name": "Colorado Ribeirão Lager 410 ml",
+          "price": 4.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/8fe31e103d212ae0d67c477607c9b70d.png",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "m2er4tjmm4jq5elph4q",
+      "openFridge": "2024-10-18T13:14:32.789Z",
+      "closeFridge": "2024-10-18T13:15:32.789Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 4
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 4
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "m2es9dx6fukal8jswrc",
+      "openFridge": "2024-10-18T13:46:05.431Z",
+      "closeFridge": "2024-10-18T13:47:05.431Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 4
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 4
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "name": "Stella Artois 330 ml",
+          "price": 4.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/fb31bc752cf7e0792f07da456c4ad8d7.png",
+          "quantity": 4
+        },
+        {
+          "id": 5,
+          "name": "Pepsi 2L",
+          "price": 5.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/0a0a9d04f43c521b99d8493e01839ad0.png",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "id": "l1edk4tmlybbn4ffne9",
+      "paymentDate": "2022-03-31T02:25:29.194Z",
+      "transactionId": "l1eddsxevvk5o6acysd",
+      "amount": 65.55,
+      "status": "PAID"
+    },
+    {
+      "id": "l1eh6xjy8poe3552ghm",
+      "paymentDate": "2022-03-31T04:07:11.710Z",
+      "transactionId": "l1eh23fnu1o8l5gqo3j",
+      "amount": 81.52,
+      "status": "PAID"
+    }
+  ]
+}
