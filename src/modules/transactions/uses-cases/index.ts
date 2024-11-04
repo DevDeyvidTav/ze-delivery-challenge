@@ -7,3 +7,12 @@ export async function createNewTransaction() {
     })
     return response.data
 }
+
+export async function getTransactionById(id: string) {
+    const response = await fetchApi({
+        method: "get",
+        url: `/transactions/${id}`,
+    })
+    return response.data
+}
+
