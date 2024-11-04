@@ -1,32 +1,50 @@
-import { Text, TouchableOpacity, View, TextInput, SafeAreaView, StatusBar, FlatList, Image } from "react-native";
+import { Text, TouchableOpacity, View, TextInput, SafeAreaView, StatusBar, FlatList, Image, Alert } from "react-native";
 import { useEffect, useState } from "react";
 import { getTransactionById } from "@/src/modules/transactions/uses-cases";
 import { useRouter, useLocalSearchParams } from "expo-router";
 import { Ionicons } from "@expo/vector-icons"; // Biblioteca para ícones
+import { createPayment } from "@/src/modules/payment/use-cases"; // Importe a função createPayment
 
 export default function CheckoutScreen() {
   const [transaction, setTransaction] = useState<any>(null);
   const [paymentAmount, setPaymentAmount] = useState('');
+  const [paymentStatus, setPaymentStatus] = useState<string | null>(null); // Estado para armazenar o status do pagamento
   const { id } = useLocalSearchParams(); // Recupera o id da transação via router
-  console.log(id);
   const router = useRouter();
 
   async function fetchTransactionDetails() {
     const response = await getTransactionById(id as string);
     setTransaction(response);
   }
-  console.log(transaction);
+
   useEffect(() => {
     if (id) {
       fetchTransactionDetails();
     }
   }, [id]);
 
-  const handlePayment = () => {
-    // Lógica de pagamento ou navegação após o pagamento
-    console.log("Valor pago:", paymentAmount);
-    console.log("ID da transação:", transaction?.id);
-    // Exemplo: redirecionar para a tela de sucesso ou home
+  const handlePayment = async () => {
+    try {
+      const response: any = await createPayment({
+        transactionId: transaction?.id,
+        amount: parseFloat(paymentAmount), // Converte o valor para número
+      });
+
+      // Atualiza o estado do pagamento com o status da resposta
+      setPaymentStatus(response.status);
+
+      // Exibe uma mensagem para o usuário com base no status do pagamento
+      if (response.status === "PAID") {
+        Alert.alert("Pagamento Aprovado", "O pagamento foi aprovado com sucesso!");
+      } else if (response.status === "REJECTED") {
+        Alert.alert("Pagamento Rejeitado", "O pagamento foi rejeitado. Por favor, tente novamente.");
+      }
+      
+      // Você pode adicionar navegação ou feedback adicional aqui
+    } catch (error) {
+      console.error("Erro ao realizar o pagamento:", error);
+      Alert.alert("Erro", "Ocorreu um erro ao processar o pagamento. Tente novamente mais tarde.");
+    }
   };
 
   if (!transaction) {
@@ -53,7 +71,7 @@ export default function CheckoutScreen() {
       {/* Conteúdo principal */}
       <View className="px-4">
         <FlatList
-        className="max-h-[70%] mt-4"
+          className="max-h-[70%] mt-4"
           data={transaction.products}
           keyExtractor={(item) => item.id.toString()}
           renderItem={({ item }) => (
@@ -89,6 +107,15 @@ export default function CheckoutScreen() {
         >
           <Text className="text-yellow-500 text-lg font-bold">Finalizar Pagamento</Text>
         </TouchableOpacity>
+
+        {/* Mensagem de status opcional */}
+        {paymentStatus && (
+          <View className="mt-4">
+            <Text className={`text-lg font-bold ${paymentStatus === 'APPROVED' ? 'text-green-500' : 'text-red-500'}`}>
+              {paymentStatus === 'PAID' ? "Pagamento aprovado!" : "Pagamento rejeitado"}
+            </Text>
+          </View>
+        )}
       </View>
     </SafeAreaView>
   );

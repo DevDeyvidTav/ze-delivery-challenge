@@ -1400,6 +1400,20 @@
           "quantity": 4
         }
       ]
+    },
+    {
+      "id": "m32dxj24bbavc0doo4k",
+      "openFridge": "2024-11-04T02:11:25.813Z",
+      "closeFridge": "2024-11-04T02:12:25.813Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 2
+        }
+      ]
     }
   ],
   "payments": [
@@ -1415,6 +1429,111 @@
       "paymentDate": "2022-03-31T04:07:11.710Z",
       "transactionId": "l1eh23fnu1o8l5gqo3j",
       "amount": 81.52,
+      "status": "PAID"
+    },
+    {
+      "id": "m32dr7tdqzudzfn8yn",
+      "paymentDate": "2024-11-04T02:06:34.321Z",
+      "transactionId": "m32decs6gb2h40sluge",
+      "amount": 104,
+      "status": "REJECTED"
+    },
+    {
+      "id": "m32dugbtymj7m341d4s",
+      "paymentDate": "2024-11-04T02:09:05.321Z",
+      "transactionId": "m32decs6gb2h40sluge",
+      "amount": 200,
+      "status": "REJECTED"
+    },
+    {
+      "id": "m32dutehqrqbv2bme0g",
+      "paymentDate": "2024-11-04T02:09:22.265Z",
+      "transactionId": "m32decs6gb2h40sluge",
+      "amount": 200,
+      "status": "REJECTED"
+    },
+    {
+      "id": "m32duxohgf77zlg2g1i",
+      "paymentDate": "2024-11-04T02:09:27.809Z",
+      "transactionId": "m32decs6gb2h40sluge",
+      "amount": 200,
+      "status": "PAID"
+    },
+    {
+      "id": "m32dv5781ipfn2awjtoh",
+      "paymentDate": "2024-11-04T02:09:37.556Z",
+      "transactionId": "m32decs6gb2h40sluge",
+      "amount": 200,
+      "status": "REJECTED"
+    },
+    {
+      "id": "m32dxt4g3zsqackgrow",
+      "paymentDate": "2024-11-04T02:11:41.872Z",
+      "transactionId": "m32dxj24bbavc0doo4k",
+      "amount": 10,
+      "status": "REJECTED"
+    },
+    {
+      "id": "m32dxxufsb5hzfuyzie",
+      "paymentDate": "2024-11-04T02:11:47.991Z",
+      "transactionId": "m32dxj24bbavc0doo4k",
+      "amount": 10,
+      "status": "PAID"
+    },
+    {
+      "id": "m32dy3yv1gog7abjyff",
+      "paymentDate": "2024-11-04T02:11:55.927Z",
+      "transactionId": "m32dxj24bbavc0doo4k",
+      "amount": 10,
+      "status": "PAID"
+    },
+    {
+      "id": "m32dy6t2u58dtugqqhc",
+      "paymentDate": "2024-11-04T02:11:59.606Z",
+      "transactionId": "m32dxj24bbavc0doo4k",
+      "amount": 10,
+      "status": "REJECTED"
+    },
+    {
+      "id": "m32dyc4lignqayx1fk",
+      "paymentDate": "2024-11-04T02:12:06.501Z",
+      "transactionId": "m32dxj24bbavc0doo4k",
+      "amount": 20,
+      "status": "PAID"
+    },
+    {
+      "id": "m32dyemiqqqy4ds5af8",
+      "paymentDate": "2024-11-04T02:12:09.738Z",
+      "transactionId": "m32dxj24bbavc0doo4k",
+      "amount": 20,
+      "status": "REJECTED"
+    },
+    {
+      "id": "m32dyero068vbxv8ma4o",
+      "paymentDate": "2024-11-04T02:12:09.924Z",
+      "transactionId": "m32dxj24bbavc0doo4k",
+      "amount": 20,
+      "status": "PAID"
+    },
+    {
+      "id": "m32dyexqojoauax8dun",
+      "paymentDate": "2024-11-04T02:12:10.142Z",
+      "transactionId": "m32dxj24bbavc0doo4k",
+      "amount": 20,
+      "status": "PAID"
+    },
+    {
+      "id": "m32dyvw66wtxhjdq5a3",
+      "paymentDate": "2024-11-04T02:12:32.118Z",
+      "transactionId": "m32dxj24bbavc0doo4k",
+      "amount": 20,
+      "status": "REJECTED"
+    },
+    {
+      "id": "m32dyz1jh6f2ae0flt8",
+      "paymentDate": "2024-11-04T02:12:36.199Z",
+      "transactionId": "m32dxj24bbavc0doo4k",
+      "amount": 20,
       "status": "PAID"
     }
   ]
