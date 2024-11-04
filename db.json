@@ -1292,28 +1292,28 @@
           "name": "Guaraná Antarctica 2L",
           "price": 7.79,
           "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
-          "quantity": 2
+          "quantity": 3
         },
         {
           "id": 2,
           "name": "Corona Extra 330ml",
           "price": 5.79,
           "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
-          "quantity": 1
+          "quantity": 3
         },
         {
           "id": 3,
           "name": "Do Bem Suco de Laranja Integral 1",
           "price": 8.65,
           "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
-          "quantity": 2
+          "quantity": 1
         },
         {
           "id": 4,
           "name": "Stella Artois 330 ml",
           "price": 4.99,
           "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/fb31bc752cf7e0792f07da456c4ad8d7.png",
-          "quantity": 3
+          "quantity": 4
         },
         {
           "id": 5,
@@ -1341,28 +1341,28 @@
           "name": "Guaraná Antarctica 2L",
           "price": 7.79,
           "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
-          "quantity": 2
+          "quantity": 3
         },
         {
           "id": 2,
           "name": "Corona Extra 330ml",
           "price": 5.79,
           "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
-          "quantity": 1
+          "quantity": 3
         },
         {
           "id": 3,
           "name": "Do Bem Suco de Laranja Integral 1",
           "price": 8.65,
           "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
-          "quantity": 2
+          "quantity": 1
         },
         {
           "id": 4,
           "name": "Stella Artois 330 ml",
           "price": 4.99,
           "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/fb31bc752cf7e0792f07da456c4ad8d7.png",
-          "quantity": 3
+          "quantity": 4
         },
         {
           "id": 5,
@@ -1411,7 +1411,42 @@
           "name": "Guaraná Antarctica 2L",
           "price": 7.79,
           "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
-          "quantity": 2
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "m32eoev3q1ip4fseolm",
+      "openFridge": "2024-11-04T02:32:20.090Z",
+      "closeFridge": "2024-11-04T02:33:20.090Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 3
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "name": "Stella Artois 330 ml",
+          "price": 4.99,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/fb31bc752cf7e0792f07da456c4ad8d7.png",
+          "quantity": 4
         }
       ]
     }
@@ -1535,6 +1570,13 @@
       "transactionId": "m32dxj24bbavc0doo4k",
       "amount": 20,
       "status": "PAID"
+    },
+    {
+      "id": "m32eojwh8rkt9egz45v",
+      "paymentDate": "2024-11-04T02:32:29.633Z",
+      "transactionId": "m32eoev3q1ip4fseolm",
+      "amount": 67,
+      "status": "REJECTED"
     }
   ]
 }

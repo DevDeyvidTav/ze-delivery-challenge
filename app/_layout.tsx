@@ -27,6 +27,7 @@ export default function RootLayout() {
     <Stack>
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
       <Stack.Screen name="transaction/[id]" options={{ headerShown: false }} />
+      <Stack.Screen name="payment/[id]" options={{ headerShown: false }} />
     </Stack>
   );
 }

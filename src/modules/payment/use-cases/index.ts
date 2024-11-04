@@ -25,3 +25,11 @@ export async function createPayment({
   });
   return response.data;
 }
+
+export async function getPaymentById(id: string) {
+  const response = await fetchApi({
+    method: "get",
+    url: `/payments/${id}`,
+  });
+  return response.data;
+}
